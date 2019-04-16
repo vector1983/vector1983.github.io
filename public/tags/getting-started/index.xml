@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Getting started on isddc</title>
-    <link>https://www.example.org/tags/getting-started/</link>
+    <link>https://vector1983.github.io/tags/getting-started/</link>
     <description>Recent content in Getting started on isddc</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright &amp;copy; 2017 - hu wei</copyright>
     <lastBuildDate>Tue, 16 Apr 2019 18:11:37 +0800</lastBuildDate>
     
-	<atom:link href="https://www.example.org/tags/getting-started/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vector1983.github.io/tags/getting-started/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>First Post</title>
-      <link>https://www.example.org/posts/first-post/</link>
+      <link>https://vector1983.github.io/posts/first-post/</link>
       <pubDate>Tue, 16 Apr 2019 18:11:37 +0800</pubDate>
       
-      <guid>https://www.example.org/posts/first-post/</guid>
+      <guid>https://vector1983.github.io/posts/first-post/</guid>
       <description>Hello hugo world! No more excuses for having no blog or documentation now!</description>
     </item>
     
