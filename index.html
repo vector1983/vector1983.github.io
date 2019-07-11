@@ -203,8 +203,32 @@
   </header>
   
   
-  <p>There's nothing here.<br />Create an interesting post with the command:</p>
-  <p><code>$ hugo new post/hello-world.md</code></p>
+   <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="https://vector1983.github.io/post/tab-completion-not-work/" class="post-link">Tab Completion Not Work in Ubuntu</a></h3>
+    <p class="post-meta">@Wei Hu · Jul 11, 2019 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">Tab key auto completion not work in ubuntu.
+</p>
+  <footer class="post-footer">
+    <a class="read-more" href="https://vector1983.github.io/post/tab-completion-not-work/">Read More →</a>
+  </footer>
+</article>
+  <article class="post-entry">
+  <header class="post-header">
+    <h3 class="post-title"><a href="https://vector1983.github.io/post/vscode/" class="post-link">Visual studio code can&#39;t run in ubuntu, how to?</a></h3>
+    <p class="post-meta">@Wei Hu · Jul 11, 2019 · 1 min read</p>
+  </header>
+  
+  <p class="post-summary">Root Cause: This problem is that VS Code uses Electron, which is the root cause of the bug.
+ Fix:
+ mkdir ~/lib cp /usr/lib/x86_64-linux-gnu/libxcb.so.1 ~/lib sed -i ’s/BIG-REQUESTS/_IG-REQUESTS/’ ~/lib/libxcb.so.1 export LD_LIBRARY_PATH=~/lib &amp;&amp; code   [reference!]https://stackoverflow.com/questions/55802252/visual-studio-code-wont-open-on-ubuntu-16-04-via-vnc</p>
+  <footer class="post-footer">
+    <a class="read-more" href="https://vector1983.github.io/post/vscode/">Read More →</a>
+  </footer>
+</article>
+ 
    
 </section>
 

@@ -7,9 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© This post is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License，please give source if you wish to quote or reproduce.</copyright>
+    <lastBuildDate>Thu, 11 Jul 2019 14:58:01 +0800</lastBuildDate>
     
 	<atom:link href="https://vector1983.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Tab Completion Not Work in Ubuntu</title>
+      <link>https://vector1983.github.io/post/tab-completion-not-work/</link>
+      <pubDate>Thu, 11 Jul 2019 14:58:01 +0800</pubDate>
+      
+      <guid>https://vector1983.github.io/post/tab-completion-not-work/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Tab key auto completion not work in ubuntu.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Visual studio code can&#39;t run in ubuntu, how to?</title>
+      <link>https://vector1983.github.io/post/vscode/</link>
+      <pubDate>Thu, 11 Jul 2019 11:25:55 +0800</pubDate>
+      
+      <guid>https://vector1983.github.io/post/vscode/</guid>
+      <description>Root Cause: This problem is that VS Code uses Electron, which is the root cause of the bug.
+ Fix:
+ mkdir ~/lib cp /usr/lib/x86_64-linux-gnu/libxcb.so.1 ~/lib sed -i &amp;rsquo;s/BIG-REQUESTS/_IG-REQUESTS/&amp;rsquo; ~/lib/libxcb.so.1 export LD_LIBRARY_PATH=~/lib &amp;amp;&amp;amp; code   [reference!]https://stackoverflow.com/questions/55802252/visual-studio-code-wont-open-on-ubuntu-16-04-via-vnc</description>
+    </item>
     
   </channel>
 </rss>
